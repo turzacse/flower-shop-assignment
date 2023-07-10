@@ -15,11 +15,13 @@
     font-size: 20px;
     font-weight: 700;
 }
+
 /* header section style here  */
-header{
+header {
     margin: 0px;
     padding: 0px;
 }
+
 .banner {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
@@ -53,15 +55,113 @@ header{
     font-weight: 400;
     line-height: 30px;
 }
-.banner-info>a>button{
+
+.banner-info>a>button {
     margin: 0px;
 }
-.banner-img{
+
+.banner-img {
     margin: 0px;
     padding: 0px;
 }
+
 .banner-img-info {
     margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 0px;
+}
+
+
+/* main section style  */
+
+/* feature section stye */
+.feature {
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    margin-top: 150px;
+}
+
+.feature-heading {
+    text-align: center;
+}
+
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.feature-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
+.feature-pic {
+    margin: 0px;
+    display: flex;
+    gap: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.feature-img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    max-height: 538px;
+
+}
+
+.feature-img1 img {
+    padding: 0px;
+    padding-left: 76px;
+    padding-right: 78px;
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+
+.feature-img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    max-height: 538px;
+}
+
+.feature-img2 img {
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 117px;
+    padding-bottom: 51px;
+}
+
+.feature-img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    max-height: 538px;
+}
+
+.feature-img3 img {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 67px;
+    padding-bottom: 0px;
+}
+
+caption {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 24px;
 }
