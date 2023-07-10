@@ -1,0 +1,68 @@
+/* common style here  */
+* {
+    margin: 0px;
+}
+
+.button-flower {
+    border: 0px;
+    border-radius: 8px;
+    background-color: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* header section style here  */
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.banner {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.banner-info {
+    display: block;
+    margin-top: 197px;
+    margin-left: 240px;
+    margin-right: 97px;
+    margin-bottom: 0px;
+}
+
+.banner-info h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.banner-info p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-info>a>button{
+    margin: 0px;
+}
+.banner-img{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-img-info {
+    /* width: 635px;
+    height: 800px; */
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
