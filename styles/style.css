@@ -322,6 +322,8 @@ header {
     margin-left: 140px;
     margin-right: 140px;
     background-image: url('../image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
     max-height: 450px;
     padding-top: 122px;
     text-align: center;
