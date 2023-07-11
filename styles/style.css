@@ -207,11 +207,12 @@ header {
     padding-top: 0px;
     padding-bottom: 24px;
 }
-.hot-deal-section>h2>span{
+
+.hot-deal-section>h2>span {
     color: #E55473;
 }
 
-.hot-deal-section p{
+.hot-deal-section p {
     padding-top: 0px;
     padding-bottom: 32px;
     color: rgba(39, 39, 39, 0.60);
@@ -221,13 +222,47 @@ header {
     margin-left: 200px;
     margin-right: 200px;
 }
-.hot-deal-section >a>button{
+
+.hot-deal-section>a>button {
     margin-top: 0px;
     margin-bottom: 162px;
 }
 
-.hot-deal-pic{
+.hot-deal-pic {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 200px;
+}
+
+
+/* instagram section style  */
+.insta {
+    margin-top: 128px;
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.insta-desc h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.insta-desc p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-left: 560px;
+    margin-right: 560px;
+}
+
+.insta-pic {
+    display: flex;
+    gap: 24px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
 }
