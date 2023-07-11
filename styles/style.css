@@ -19,6 +19,41 @@ body {
     font-weight: 700;
 }
 
+/* design nav ber  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+nav h1{
+    color: #928c8c;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.betaa{
+    color: orange;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 80;
+
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
 /* header section style here  */
 header {
     margin: 0px;
@@ -79,8 +114,6 @@ header {
 
 /* feature section stye */
 .feature {
-    /* margin-left: 240px;
-    margin-right: 240px; */
     margin-top: 150px;
 }
 
@@ -158,8 +191,21 @@ header {
     padding-top: 67px;
     padding-bottom: 0px;
 }
-
-
+.feature-pic-caption{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 300px;
+    gap: 300px;
+    text-align: center;
+}
+.feature-pic-caption h3{
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
 
 /* service section style  */
 .service {
@@ -186,7 +232,6 @@ header {
     line-height: 35px;
     padding-top: 24px;
 }
-
 
 
 /* hot deal section style  */
@@ -353,36 +398,3 @@ footer {
     padding-bottom: 128px;
 }
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 100px;
-}
-nav h1{
-    color: #928c8c;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 20px;
-    margin-bottom: 20px; 
-}
-.betaa{
-    color: orange;
-}
-.list{
-    display: flex;
-    align-items: center;
-}
-.list li{
-    list-style: none;
-    margin-right: 50px;
-    font-size: 20px;
-    font-weight: 80;
-
-}
-.list a{
-    text-decoration: none;
-    color: black;
-}
