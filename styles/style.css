@@ -148,7 +148,7 @@ header {
     gap: 24px;
     margin-left: 120px;
     margin-right: 120px;
-    text-align: center;
+    justify-content: center;
 }
 
 .feature-img1 {
@@ -194,9 +194,9 @@ header {
 .feature-pic-caption{
     display: flex;
     margin-top: 32px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     gap: 300px;
-    text-align: center;
+    justify-content: center;
 }
 .feature-pic-caption h3{
     color: #272727;
@@ -241,6 +241,7 @@ header {
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     text-align: center;
+    justify-content: center;
 }
 
 .hot-deal-section {
@@ -314,6 +315,7 @@ header {
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 50px;
+    justify-content: center;
 }
 
 
