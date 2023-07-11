@@ -283,6 +283,61 @@ header {
     margin-right: 200px;
 }
 
+/* customer review section styles */
+.customer-review-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+.customer{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 128px;
+    background-color: rgba(71, 125, 17, 0.15);
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.customer-review{
+    justify-content: center;
+}
+.customer-review img{
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 0px;
+    
+}
+.customer-review h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 800px;
+    color: #575050;
+}
+.customer-review p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    justify-content: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+
 
 /* instagram section style  */
 .insta {
