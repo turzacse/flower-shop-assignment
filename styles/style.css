@@ -110,8 +110,8 @@ header {
     margin: 0px;
     display: flex;
     gap: 24px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
     text-align: center;
 }
 
@@ -163,8 +163,8 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 140px;
+    margin-right: 140px;
     gap: 100px;
     margin-top: 195px;
     margin-bottom: 128px;
@@ -249,7 +249,8 @@ header {
     margin-top: 0px;
     margin-bottom: 24px;
 }
-.insta-desc p{
+
+.insta-desc p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -261,8 +262,46 @@ header {
 
 .insta-pic {
     display: flex;
-    gap: 24px;
+    gap: 15px;
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 50px;
+}
+
+.latest-deal {
+    margin-left: 140px;
+    margin-right: 140px;
+    background-image: url('../image/Rectangle\ 9.png');
+    max-height: 450px;
+    padding-top: 122px;
+    text-align: center;
+    margin-bottom: 128px;
+}
+.latest-deal h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.latest-deal p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+.deal-input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 121px;
+    margin-top: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
 }
